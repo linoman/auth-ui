@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+  <div>
+    <button id="getUsersButton">Get users</button>
+    <h2>GET /users</h2>
+    <ul id="usersUl"></ul>
+  </div>
+  <hr>
+  <div>
+    <button id="postUsersButton">Post User</button>
+    <h2>POST /users</h2>
+    <h3>Username</h3>
+    <input id="postUserInput" type="text">
+    <h3>Password</h3>
+    <input id="postUserPassword" type="password">
+  </div>
+  <hr>
+  <div>
+    <button id="deleteUsersButton">Delete User</button>
+    <h2>DELETE /users</h2>
+    <h3>User ID</h3>
+    <input id="deleteUserInput" type="text">
+  </div>
+  <hr>
+  <div>
+    <button id="protectedUsersButton">Protected User</button>
+    <h2>GET /protected</h2>
+    <h3>Protected Endpoint</h3>
+    <input id="protectedUserInput" type="text">
+    <img id="protectedImg"/>
+  </div>
+
+  <script src='index.js'></script>
+</body>
+</html>
